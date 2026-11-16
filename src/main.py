@@ -16,6 +16,7 @@ def main():
         "content", 
         "template.html", 
         "docs",
+        basepath,
     )
 
 
