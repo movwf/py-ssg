@@ -10,12 +10,12 @@ def main():
 
     copy_static_to_public(
         "static", 
-        "public",
+        "docs",
     )
     generate_pages_recursive(
         "content", 
         "template.html", 
-        "public",
+        "docs",
     )
 
 
